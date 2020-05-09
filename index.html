@@ -1,0 +1,22 @@
+<head>
+    <title>Web Safe</title>    
+</head>
+<body>
+    <h1>Web Safe</h1>
+    <p>This is about encrypting things</p>
+<script>
+function loadScript(url, onload) {
+    const newScript = document.createElement("script");
+    newScript.onerror = (err) => {
+        console.error("Unable to load %s: %o", url, err);
+    };
+    newScript.onload = () => {
+        console.log("Loaded %s", url);
+        if (onload) onload();
+    }
+    document.head.appendChild(newScript);
+    newScript.src = url;
+}
+
+</script>
+</body>
