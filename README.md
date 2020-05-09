@@ -1,4 +1,8 @@
-So you have a small thing, like say a high entropy string that is not memorable, that you want to have accessible to you whenever you want it, but it should never ever be written down in an unencrypted way. What can you do?
+This project allows you to use the capabilities that already exist in your 
+browser to securely encrypt and decrypt data. You almost certainly want
+to view it on github pages -> https://tomseago.github.io/web-safe
 
-Obviously you need to encrypt it. 
+Perhaps this will grow into a larger thing, but for now it is what it is.
 
+It's really a static website. The only reason there is a package.json is
+to make it easy to host locally while developing.

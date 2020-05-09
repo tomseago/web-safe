@@ -1,0 +1,16 @@
+{
+  "name": "web-safe",
+  "version": "1.0.0",
+  "description": "Web encryption",
+  "main": "src/index.js",
+  "repository": "git@github.com:tomseago/web-safe.git",
+  "author": "Tom Seago <tom@tomseago.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node src"
+  }
+}
